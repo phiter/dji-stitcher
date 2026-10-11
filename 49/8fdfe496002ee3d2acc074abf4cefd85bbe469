@@ -1,0 +1,14 @@
+index.html
+  h_43f70d35f085ea 7-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "498fdfe496002ee3d2acc074abf4cefd85bbe469",
+  "prompts": {},
+  "humans": {
+    "h_43f70d35f085ea": {
+      "author": "Phiter Fernandes <phiterfernandes@gmail.com>"
+    }
+  }
+}
