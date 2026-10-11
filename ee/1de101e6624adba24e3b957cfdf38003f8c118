@@ -1,0 +1,152 @@
+src/lib/stitch.ts
+  s_36651e92a68910::t_3eab7650bafbd3 37,75-76,78,80-86,93,96,122
+  s_36651e92a68910::t_20378203e40225 1-3,5-36,38-59,98,100-121,123-126,128-135
+  s_36651e92a68910::t_dfe2e3491fe80c 4
+  s_36651e92a68910::t_6a1efb9729f2f3 60-74,77,79,87-92,94-95,97,99
+  s_36651e92a68910::t_5b24ecac3522d8 127
+tests/helpers.ts
+  s_36651e92a68910::t_f1ac53381ad774 1-29,31-39
+  s_36651e92a68910::t_7008d73c4c5c21 30
+src/lib/align/align.ts
+  s_36651e92a68910::t_7c98784e10a7b7 1-26,33-108,110-122,124-126,128,131,138-139,144,176-177,179-215
+  s_36651e92a68910::t_b73ec888e1622b 31-32,109,123,127,130,132-134,136-137,140,146-149,151-154,157-175,178
+  s_36651e92a68910::t_fdce0beff69afe 27-30,129,135,141-143,145,150,155-156
+src/lib/metadata.ts
+  s_36651e92a68910::t_f384bf126cc581 13-17,46-49,58-60
+  s_36651e92a68910::t_c8d4c73607d4ba 1-12,18-36,38-45,50-57,61-73,78-79
+  s_36651e92a68910::t_7008d73c4c5c21 37,74-77
+src/lib/geometry.ts
+  h_43f70d35f085ea 1-135
+tests/real-data.test.ts
+  s_36651e92a68910::t_cad2d09e7fda47 1-23
+src/lib/render/renderer.ts
+  s_36651e92a68910::t_df0564391b5193 14-24,26,28-29,58,75-76,163,191-197,221-227,230,233-234,239
+  s_36651e92a68910::t_386905f6c8b32e 2,30,68,111,160,188,190,210,216
+  s_36651e92a68910::t_e52f1a528a2ecc 1,3-13,25,27,31-57,59-67,69-74,77-110,112-159,161-162,164-187,189,198-209,211-215,217-220,228-229,231-232,235-238,240-269
+src/lib/align/features.ts
+  s_36651e92a68910::t_f624ac90c43691 19-20
+  s_36651e92a68910::t_3fdb02162b75a4 2-3,5-18,21-84
+  s_36651e92a68910::t_7751f97eeadbb8 1
+  s_36651e92a68910::t_c8e316248ad184 4
+src/lib/render/encode.ts
+  s_36651e92a68910::t_9da319a8e200db 1-21,23-40,42-59
+  s_36651e92a68910::t_7008d73c4c5c21 22,41
+src/components/PhotoGrid.tsx
+  s_36651e92a68910::t_d92b28801ec0c3 1-16
+  s_36651e92a68910::t_9645a7d24b7f80 17-19
+  h_43f70d35f085ea 20-25
+src/lib/render/shaders.ts
+  s_36651e92a68910::t_2da11165296fd5 32-34,123
+  s_36651e92a68910::t_5eaa987e92169c 2-19,22,26-30,36-96,117-122,135-177,192-194
+  s_36651e92a68910::t_6b4878b163bd41 1,20-21,23-25,97-116,125
+  s_36651e92a68910::t_f0444772cffe5d 31,35,124,126-134
+  s_36651e92a68910::t_539df0a6bfcb79 178-186,188-191
+  s_36651e92a68910::t_842753f3f41df7 187
+src/components/ExportPanel.tsx
+  s_36651e92a68910::t_835691dab8fe73 1-27,30-87
+  s_36651e92a68910::t_efd7abb407f2e4 28-29
+src/components/PanoViewer.tsx
+  s_36651e92a68910::t_140d00cd02b2a5 1-30
+tsconfig.json
+  s_36651e92a68910::t_b8b8e25a0b3051 16
+  s_36651e92a68910::t_39b943a9cd0a6e 1-15,17-19
+src/main.tsx
+  s_36651e92a68910::t_66ac8df56e4f5f 1-10
+src/lib/export.ts
+  s_36651e92a68910::t_aaec49d01ecfb9 1-51
+src/lib/align/bundle.ts
+  s_36651e92a68910::t_5e1f6c06c86d48 117,201,237,313
+  s_36651e92a68910::t_7d9a98e14b5d17 1-116,118-200,202-236,238-312,314-331
+src/lib/render/skyfill.ts
+  s_36651e92a68910::t_b5d6b524ecee5f 1-26,28-92
+  s_36651e92a68910::t_4ef18916aebc6e 27
+src/App.tsx
+  s_36651e92a68910::t_014f1ab1b17b00 1,10,14,64-65,75,95-96,98-105
+  s_36651e92a68910::t_499291c498de03 2-5,8-9,12-13,15,18-29,32-63,66,68-73,76-94,97,106-125,161-170
+  s_36651e92a68910::t_f47d37dc7d9aab 6-7,11,16-17,30-31,67,74,126-160
+tests/bundle.test.ts
+  s_36651e92a68910::t_21ec97fc12226a 1-88
+scripts/e2e.mjs
+  s_36651e92a68910::t_0438f33c886aff 4-9,12-44,52-64
+  s_36651e92a68910::t_2d2ea909976d2d 10-11,45-51
+  s_36651e92a68910::t_7469eed06726b7 1-3
+src/styles.css
+  s_36651e92a68910::t_c8dbdc99d41583 1-175,183-200
+  s_36651e92a68910::t_5042dca8bda3ba 176-182
+  s_36651e92a68910::t_4652e071b25c48 201-252
+src/lib/sizes.ts
+  s_36651e92a68910::t_a12d888c85f70f 1-75
+src/lib/selection.ts
+  s_36651e92a68910::t_92340867cabea5 1-53
+tests/misc.test.ts
+  s_36651e92a68910::t_b385f505355198 3,8-11,13,16-20,27-35,39
+  s_36651e92a68910::t_7fbbd688c4cdfd 63-69,78-79
+  s_36651e92a68910::t_be62b453da30c8 1-2,4-7,12,14-15,21-26,36-38,40-62,70-77,80-110
+tests/sizes.test.ts
+  s_36651e92a68910::t_efd7abb407f2e4 8,10
+  s_36651e92a68910::t_1bfc6f7819d01e 1-7,9,11-48
+tests/geometry.test.ts
+  s_36651e92a68910::t_04d6cb1667713a 1-71
+src/lib/align/matching.ts
+  s_36651e92a68910::t_6c185b250c48e2 1-98
+src/workers/align.worker.ts
+  s_36651e92a68910::t_a55a6a37826e5f 59
+  s_36651e92a68910::t_09ff92733f7689 9
+  s_36651e92a68910::t_51615baafbd2ba 1-8,10-58,60-71
+src/lib/camera.ts
+  s_36651e92a68910::t_7a9ebf4adda3ce 1-57
+package.json
+  s_36651e92a68910::t_ab9dbea39d60f3 1-9,12-15,17-21,23-32
+  s_36651e92a68910::t_d40c7fc5841f52 16,22
+  s_36651e92a68910::t_cee13c587d75d6 10-11
+tests/synthetic.test.ts
+  s_36651e92a68910::t_ce04dd71b72dfa 4,91
+  s_36651e92a68910::t_0714d790774fc2 1-3,5-90,92-119
+src/components/PlanetPanel.tsx
+  s_36651e92a68910::t_c7af9fc44e8a18 1-20,22-86
+  s_36651e92a68910::t_539df0a6bfcb79 21
+src/lib/align/types.ts
+  s_36651e92a68910::t_675d3925e64214 1-28,31-62
+  s_36651e92a68910::t_ff806a97396f1a 29-30
+vite.config.ts
+  s_36651e92a68910::t_f2eccf21694dbb 1-9,11,16
+  s_36651e92a68910::t_7c90cfe0ebba29 10
+  s_36651e92a68910::t_f618ea50f323d6 12-15,17
+src/lib/align/photometric.ts
+  s_36651e92a68910::t_ab6b7530e2de39 59-62
+  s_36651e92a68910::t_7915ddadeaae3c 1-58,63-234
+index.html
+  s_36651e92a68910::t_03c5aaa7290bb9 6
+  s_36651e92a68910::t_b7555d5ca57067 1-5,7-13
+.gitignore
+  s_36651e92a68910::t_3dec8fdc1dd0d8 1-5
+  s_36651e92a68910::t_0438f33c886aff 6-7
+src/components/PhotoPicker.tsx
+  s_36651e92a68910::t_1f9e0f03af180e 1-73,75-83
+  s_36651e92a68910::t_1d39483323a5c8 74
+tests/opencv-shim.ts
+  s_36651e92a68910::t_2a9c2fd67b9af5 1-6
+package-lock.json
+  s_36651e92a68910::t_8ab83cf8d61b79 1-2300
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ee1de101e6624adba24e3b957cfdf38003f8c118",
+  "prompts": {},
+  "humans": {
+    "h_43f70d35f085ea": {
+      "author": "Phiter Fernandes <phiterfernandes@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_36651e92a68910": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "ff601dbe-c12f-4264-b2e6-b3b65f3c4052",
+        "model": "claude-sonnet-5.5"
+      },
+      "human_author": "Phiter Fernandes <phiterfernandes@gmail.com>"
+    }
+  }
+}
