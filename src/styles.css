@@ -1,0 +1,252 @@
+:root {
+  color-scheme: dark;
+  --bg: #0f1115;
+  --card: #181b22;
+  --border: #2a2f3a;
+  --text: #e8eaf0;
+  --muted: #9aa1b2;
+  --accent: #4c8dff;
+  --warn: #f2b84b;
+  --error: #ff6b6b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.5 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 26px;
+}
+
+.muted {
+  color: var(--muted);
+}
+.small {
+  font-size: 13px;
+}
+.error {
+  color: var(--error);
+}
+.warning {
+  color: var(--warn);
+  margin: 6px 0 0;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+button {
+  font: inherit;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  padding: 8px 16px;
+  cursor: pointer;
+  color: var(--text);
+  background: #232734;
+}
+button.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.dropzone {
+  border: 2px dashed var(--border);
+  border-radius: 12px;
+  padding: 56px 20px;
+  text-align: center;
+  transition: border-color 0.15s, background 0.15s;
+}
+.dropzone.over {
+  border-color: var(--accent);
+  background: rgba(76, 141, 255, 0.08);
+}
+.dropzone.compact {
+  border: 0;
+  padding: 0;
+}
+.drop-title {
+  font-size: 18px;
+  margin: 0 0 4px;
+}
+
+.photo-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+.photo-grid li {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.photo-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #000;
+}
+.photo-grid .angles {
+  color: var(--muted);
+}
+
+.viewer {
+  width: 100%;
+  height: min(62vh, 560px);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #000;
+}
+.viewer-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.progress-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+progress {
+  flex: 1;
+  height: 10px;
+  accent-color: var(--accent);
+}
+
+.export {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.export label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.export label.check {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  color: var(--text);
+  padding-bottom: 9px;
+}
+select {
+  font: inherit;
+  color: var(--text);
+  background: #232734;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+.export .progress-row {
+  flex: 1;
+  min-width: 260px;
+}
+
+details summary {
+  cursor: pointer;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.segmented {
+  display: inline-flex;
+  align-self: flex-start;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.segmented button {
+  border: 0;
+  border-radius: 0;
+}
+.segmented button.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.planet {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.planet-controls {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.slider input {
+  width: 180px;
+  accent-color: var(--accent);
+}
+.slider span {
+  min-width: 3.5em;
+  color: var(--text);
+}
+.planet-preview {
+  align-self: center;
+  max-width: 100%;
+  max-height: 62vh;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  background: #000;
+}
