@@ -1,0 +1,24 @@
+README.md
+  s_36651e92a68910::t_cdb075146c2e89 1-56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "532d37073f3216262189a85385cda29d649e55ef",
+  "prompts": {},
+  "humans": {
+    "h_43f70d35f085ea": {
+      "author": "Phiter Fernandes <phiterfernandes@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_36651e92a68910": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "ff601dbe-c12f-4264-b2e6-b3b65f3c4052",
+        "model": "copilot/claude-sonnet-5.5"
+      },
+      "human_author": "Phiter Fernandes <phiterfernandes@gmail.com>"
+    }
+  }
+}
