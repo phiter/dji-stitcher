@@ -1,0 +1,28 @@
+tests/geometry.test.ts
+  s_36651e92a68910::t_9977820466c6e8 71-80
+src/lib/render/shaders.ts
+  s_36651e92a68910::t_765e7f4b18cdbf 85-87
+src/lib/camera.ts
+  s_36651e92a68910::t_42f1f83c5dc09c 47-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cbc0279b998890888eacba44678980eaf0898e56",
+  "prompts": {},
+  "humans": {
+    "h_43f70d35f085ea": {
+      "author": "Phiter Fernandes <phiterfernandes@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_36651e92a68910": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "ff601dbe-c12f-4264-b2e6-b3b65f3c4052",
+        "model": "claude-sonnet-5.5"
+      },
+      "human_author": "Phiter Fernandes <phiterfernandes@gmail.com>"
+    }
+  }
+}
