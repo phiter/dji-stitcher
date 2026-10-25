@@ -68,4 +68,14 @@ describe('camera', () => {
   it('rejects directions behind the camera', () => {
     expect(camToPixel({ width: 100, height: 100, f: 100, k1: 0 }, [0, 0, -1])).toBeNull();
   });
+
+  it('does not invent positions for rays far outside the field of view when k1 is negative', () => {
+    const lens: Lens = { width: 4032, height: 3024, f: 2958, k1: -0.042 };
+    const R = gimbalToRotation(0, 0, 0);
+    for (let deg = 65; deg < 89; deg += 1) {
+      const dir = lonLatToDir(deg * DEG, 0);
+      expect(worldToPixel(lens, R, dir)).toBeNull();
+    }
+    expect(worldToPixel(lens, R, lonLatToDir(20 * DEG, 0))).not.toBeNull();
+  });
 });

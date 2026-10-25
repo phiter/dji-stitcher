@@ -82,7 +82,9 @@ float project(int i, vec3 dir, out vec2 pu, out vec2 px) {
   pu = c.xy / c.z;
   vec2 pd = pu;
   if (uK1 != 0.0) {
-    for (int k = 0; k < 6; k++) pd = pu / (1.0 + uK1 * dot(pd, pd));
+    for (int k = 0; k < 8; k++) pd = pu / (1.0 + uK1 * dot(pd, pd));
+    // With negative k1 rays far outside the field of view have no inverse; reject them instead of sampling a phantom.
+    if (length(pd * (1.0 + uK1 * dot(pd, pd)) - pu) > 1e-3) return 0.0;
   }
   vec2 halfSize = 0.5 * uTexSize;
   px = pd * uF + halfSize;

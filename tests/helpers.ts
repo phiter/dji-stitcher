@@ -13,7 +13,7 @@ export function datasetDir(name = process.env.DATASET ?? '100_0997'): string {
 export function listPhotos(dir: string): string[] {
   return fs
     .readdirSync(dir)
-    .filter((f) => /^DJI_\d+\.JPG$/i.test(f))
+    .filter((f) => /\.jpe?g$/i.test(f) && !/panorama/i.test(f))
     .sort();
 }
 

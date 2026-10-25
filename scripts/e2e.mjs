@@ -15,7 +15,7 @@ fs.mkdirSync(outDir, { recursive: true });
 const dir = path.resolve('PANORAMAS', dataset);
 const files = fs
   .readdirSync(dir)
-  .filter((f) => /^DJI_\d+\.JPG$/i.test(f))
+  .filter((f) => /\.jpe?g$/i.test(f) && !/panorama/i.test(f))
   .sort()
   .map((f) => path.join(dir, f));
 

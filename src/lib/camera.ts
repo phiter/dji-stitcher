@@ -44,6 +44,9 @@ export function camToPixel(lens: Lens, c: Vec3): [number, number] | null {
       xd = xu / s;
       yd = yu / s;
     }
+    // With negative k1 rays far outside the field of view have no inverse; the iteration then lands anywhere.
+    const s = 1 + lens.k1 * (xd * xd + yd * yd);
+    if (Math.hypot(xd * s - xu, yd * s - yu) > 1e-3) return null;
   }
   return [xd * lens.f + lens.width / 2, yd * lens.f + lens.height / 2];
 }
